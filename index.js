@@ -239,6 +239,7 @@ const handle_kb_event = function(event) {
     switch (event.code) {
         case "Space":
             toggle_el_visibility(el_cpanel);
+            break;
         case "Tab":
             event.preventDefault();
             break;
